@@ -3,6 +3,11 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\RiwayatController;
+
+
+Route::get('list', [RiwayatController::class, 'index']);
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
